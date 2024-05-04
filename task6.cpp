@@ -11,7 +11,7 @@ istream& operator>>(istream& stream, skipchars output)//Я чесно намаг
 {
     string temp;
     if (stream >> temp) {
-        for (int i = 0; i < temp.size(); i += 10) {
+        for (int i = 0; i < (int)temp.size(); i += 10) {
             output.str += temp.substr(i, 5);
         }
     }

@@ -13,7 +13,6 @@ int main() {
     }
 
     char c;
-    int count = 0;
     while (source.get(c)) {
         if (isupper(c)){
             c = tolower(c);

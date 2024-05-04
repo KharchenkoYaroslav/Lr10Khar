@@ -5,7 +5,7 @@ int main()
 {
     char str[80];
     cout << "Enter your name: ";
-    cin.getline(str, 79);
+    cin.get(str, 79);
     cout << str << '\n';
     return 0;
 }

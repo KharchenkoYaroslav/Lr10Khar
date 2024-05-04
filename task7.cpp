@@ -13,6 +13,7 @@ int main() {
 
     char c;
     int count = 0;
+    source.unsetf(ios::skipws);
     while (!source.eof()) {
         source >> c;
         dest << c;
