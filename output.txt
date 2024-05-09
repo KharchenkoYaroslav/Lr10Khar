@@ -1,2 +1,2 @@
-sOME TEXT
+Some text
 12345

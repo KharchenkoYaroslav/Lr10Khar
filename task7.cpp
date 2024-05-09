@@ -16,7 +16,9 @@ int main() {
     source.unsetf(ios::skipws);
     while (!source.eof()) {
         source >> c;
-        dest << c;
+        if(!source.eof()){
+            dest << c;
+        } 
         count++;
     }
 

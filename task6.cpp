@@ -7,7 +7,7 @@ struct skipchars
     string &str;
 };
 
-istream& operator>>(istream& stream, skipchars output)//Я чесно намагався створити маніпулятор вводу без параметрів але безуспішно
+istream& operator>>(istream& stream, skipchars output)
 {
     string temp;
     if (stream >> temp) {
